@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+
+}
+
+.contariner {
+    height: 50px;
+    margin-top: 5px;
+    background-color: rgb(197, 195, 195);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.search {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 50px;
+    border-radius: 10px 0px 0px 10px;
+    /* background-color: aliceblue; */
+}
+
+.search-box {
+    width: 550px;
+    border-radius: 0px 10px 10px 0px;
+    /* background-color: aqua; */
+}
+
+.search-box input {
+    width: 550px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.earth-logo {
+    font-size: 20px;
+}
+
+.earth-text {
+    font-size: 12px;
+}
+
+.account-logo {
+    font-size: 20px;
+}
+
+.account-text {
+    font-size: 12px;
+}
